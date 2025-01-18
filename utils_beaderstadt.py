@@ -48,10 +48,10 @@ client_satisfaction_scores: list = [4.8, 4.6, 4.9, 5.0, 4.7]
 recent_scores_on_skills_drills: list = [5.5, 2.2, 6.6, 9.0]
 # Calculate basic statistics using built-in Python functions and the statistics module
 # TODO: Replace these variable names with the variable name of your own numeric list
-min_score: float = min(client_satisfaction_scores)  
-max_score: float = max(client_satisfaction_scores)  
-mean_score: float = statistics.mean(client_satisfaction_scores)  
-stdev_score: float = statistics.stdev(client_satisfaction_scores)
+min_score: float = min(recent_scores_on_skills_drills)  
+max_score: float = max(recent_scores_on_skills_drills)  
+mean_score: float = statistics.mean(recent_scores_on_skills_drills)  
+stdev_score: float = statistics.stdev(recent_scores_on_skills_drills)
 
 # Use a Python formatted string (f-string) to show information
 # TODO: Modify the text in the byline to fit your information
@@ -60,14 +60,14 @@ byline: str = f"""
 ---------------------------------------------------------
 Stellar Analytics: Delivering Professional Insights
 ---------------------------------------------------------
-Has International Clients:  {has_international_clients}
-Years in Operation:         {years_in_operation}
-Skills Offered:             {skills_offered}
-Client Satisfaction Scores: {client_satisfaction_scores}
-Minimum Satisfaction Score: {min_score}
-Maximum Satisfaction Score: {max_score}
-Mean Satisfaction Score: {mean_score:.2f}
-Standard Deviation of Satisfaction Scores: {stdev_score:.2f}
+Is Pet Friendly:                          {is_pet_friendly}
+Number Of Deliveries:                     {number_of_deliveries}
+Tools Used:                               {tools_used}
+Recent Scores On Skills Drills:           {recent_scores_on_skills_drills}
+Minimum Skill Drill Score:                {min_score}
+Maximum Skill Drill Score:                {max_score}
+Mean Skill Drill Score:                   {mean_score:.2f}
+Standard Deviation of Skill Drill Scores: {stdev_score:.2f}
 """
 
 #####################################
