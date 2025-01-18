@@ -47,7 +47,7 @@ tools_used: list = ["SQL", "GitHub", "Python"]
 client_satisfaction_scores: list = [4.8, 4.6, 4.9, 5.0, 4.7]
 recent_scores_on_skills_drills: list = [5.5, 2.2, 6.6, 9.0]
 # Calculate basic statistics using built-in Python functions and the statistics module
-# TODO: Replace these variable names with the variable name of your own numeric list
+# Recent Scores on Skills Drills Statistics
 min_score: float = min(recent_scores_on_skills_drills)  
 max_score: float = max(recent_scores_on_skills_drills)  
 mean_score: float = statistics.mean(recent_scores_on_skills_drills)  
