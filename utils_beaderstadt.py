@@ -8,7 +8,7 @@ Course: Data Analytics Fundamentals
 Description: This module provides a byline for my analytics projects.
 When we work hard to write useful code, we want it to be reusable.
 This module provides a template illustrating the use of important functions 
-such as lists, statistics, and a multiline f-strings.
+such as lists, statistics, and  multiline f-strings.
 
 
 Author: Alissa Beaderstadt
